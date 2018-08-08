@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.yamen.firstapp.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="buClick"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="buClick"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu6"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu5"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu4"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="buClick"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bu9"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu8"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="buClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu7"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="buClick"
+            android:text="" />
+    </TableRow>
+
+</TableLayout>
